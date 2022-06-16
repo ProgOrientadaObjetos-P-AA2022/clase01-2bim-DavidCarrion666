@@ -33,6 +33,7 @@ public class Ejecutor {
         Vehiculo v4 = new Vehiculo("Camioneta", "LCC0011", 10000);
         Vehiculo v5 = new Vehiculo("Camioneta", "LDC0011", 25000);
         Vehiculo[] autos = {v1, v2, v3, v4, v5};
+        
 
  
         Empresa miempresa = new Empresa();
@@ -45,5 +46,6 @@ public class Ejecutor {
 
         
         System.out.println(miempresa);
+
     }
 }

@@ -15,7 +15,7 @@ public class Vehiculo {
     private double valor;
 
     public Vehiculo(String n, String m, double val) {
-        tipo = m;
+        tipo = n;
         matricula = m;
         valor = val;
     }
